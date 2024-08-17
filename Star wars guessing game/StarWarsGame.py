@@ -19,7 +19,7 @@ mixer.music.play(loops=-1)
 episodes = ["The Phantom Menace","Attack of the Clones","Revenge of the Sith","A New Hope","The Empire Strikes Back","Return of the Jedi"]
 listOfStarShips = []
 starShipImg = []
-numbers = list(range(4))  # List of unique random numbers
+numbers = list(range(28))  # List of unique random numbers
 random.shuffle(numbers)
 randomIndex = None
 app = CTk()
